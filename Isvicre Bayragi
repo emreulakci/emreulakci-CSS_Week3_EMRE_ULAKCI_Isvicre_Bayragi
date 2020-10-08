@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>İsviçre Bayrağı</title>
+</head>
+<h1>İsviçre Bayrağı</h1>
+    <!-- Bayrak ölçüleri https://en.wikipedia.org/wiki/Flag_of_Switzerland sitesinden alınmıştır.-->
+<div class="flag">
+  <span class="beyaz yatay"></span>
+  <span class="beyaz dikey"></span>
+</div>
+<style>
+    /* Renk kodları https://www.schemecolor.com/switzerland-flag-colors.php sitesinden alınmıştır. */
+ .flag {
+    background-color: #D52B1E;
+    margin: auto;
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+  }
+ .beyaz {
+    position: absolute;
+    background-color: #FFFFFF;
+    display: block;
+  }
+  .yatay {
+    margin-top: 130px;
+    height: 60px;
+    width: 200px;
+    margin-left: 60px;
+  }
+  .dikey {
+    width: 60px;
+    height: 200px;
+    margin-left: 130px;
+    margin-top: 60px;
+  }
+</style>
